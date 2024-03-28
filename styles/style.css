@@ -312,11 +312,11 @@
   }
 
   .rows .section__article {
-    grid-column: 2 / 4;
+    grid-column: 2 / 3;
   }
 
   .rows .section__subtitle {
-    grid-column: 2 / 4;
+    grid-column: 2 / 3;
   }
 }
 
@@ -339,7 +339,7 @@
   .rows {
     display: grid;
     gap: var(--gap-between-article, 20px);
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
   .rows .section__title {
