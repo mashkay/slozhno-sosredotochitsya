@@ -28,7 +28,7 @@
 }
 
 @media (prefers-color-scheme: light) {
-  .page {
+  .page.theme_auto {
     color-scheme: light;
     /* Backgrounds */
     --color-main-bg: var(--clr-lavender-blush, #fff1f7);
@@ -52,7 +52,7 @@
       rgba(50, 49, 45, 0.4)
     );
   }
-  .header__rec {
+  .page.theme_auto .header__rec {
     display: none;
   }
 }
