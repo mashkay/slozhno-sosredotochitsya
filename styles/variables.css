@@ -1,4 +1,35 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+  /* color-names */
+  --clr-midnight: #000028;
+  --clr-lavender-blush: #fff1f7;
+  --clr-sugarwinkle: #ffc2e6;
+  --clr-bunny-cake: #f1b2ce;
+  --clr-shimmering-love: #ff8dcb;
+  --clr-retro-pink-pop: #ff0070;
+  --clr-psychedelic-purple: #db00ff;
+  --clr-pink-transparent: rgba(255, 0, 112, 0.4);
+  --clr-gray: #353430;
+  --clr-gray-transparent: rgba(50, 49, 45, 0.4);
+
+  /* Backgrounds */
+  --color-main-bg: var(--clr-midnight, #000028);
+  --image-cover-bg: url(../images/cover-image-dark.png);
+  --color-accent-bg: var(--clr-retro-pink-pop, #ff0070);
+
+  /* Text colors */
+  --color-main-text: var(--clr-bunny-cake, #f1b2ce);
+  --color-title-text: var(--clr-psychedelic-purple, #db00ff);
+  --color-contrast-text: var(--clr-retro-pink-pop, #ff0070);
+  --color-accent-text: var(--clr-midnight, #000028);
+
+  /* Text shadows */
+  --color-link-shadow: var(--clr-retro-pink-pop, #ff0070);
+
+  /* Border colours */
+  --color-main-border: var(--clr-retro-pink-pop, #ff0070);
+  --color-link-border: var(--clr-bunny-cake, #f1b2ce);
+  --color-transparent-border: var(
+    --clr-pink-transparent,
+    rgba(255, 0, 112, 0.4)
+  );
+}

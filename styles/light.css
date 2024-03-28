@@ -5,8 +5,60 @@
 */
 
 .page.theme_light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  color-scheme: light;
+  /* Backgrounds */
+  --color-main-bg: var(--clr-lavender-blush, #fff1f7);
+  --image-cover-bg: url(../images/cover-image-light.png);
+  --color-accent-bg: var(--clr-shimmering-love, #ff8dcb);
+
+  /* Text colours */
+  --color-main-text: var(--clr-gray, #353430);
+  --color-title-text: var(--clr-sugarwinkle, #ffc2e6);
+  --color-contrast-text: var(--clr-gray, #353430);
+  --color-accent-text: var(--clr-gray, #353430);
+
+  /* Text shadows */
+  --color-link-shadow: var(--clr-shimmering-love, #ff8dcb);
+
+  /* Border colours */
+  --color-main-border: var(--clr-gray, #353430);
+  --color-link-border: var(--clr-gray, #353430);
+  --color-transparent-border: var(
+    --clr-gray-transparent,
+    rgba(50, 49, 45, 0.4)
+  );
+}
+
+.page.theme_light .header__rec {
+  display: none;
+}
+
+@media (prefers-color-scheme: light) {
+  .page {
+    color-scheme: light;
+    /* Backgrounds */
+    --color-main-bg: var(--clr-lavender-blush, #fff1f7);
+    --image-cover-bg: url(../images/cover-image-light.png);
+    --color-accent-bg: var(--clr-shimmering-love, #ff8dcb);
+
+    /* Text colours */
+    --color-main-text: var(--clr-gray, #353430);
+    --color-title-text: var(--clr-sugarwinkle, #ffc2e6);
+    --color-contrast-text: var(--clr-gray, #353430);
+    --color-accent-text: var(--clr-gray, #353430);
+
+    /* Text shadows */
+    --color-link-shadow: var(--clr-shimmering-love, #ff8dcb);
+
+    /* Border colours */
+    --color-main-border: var(--clr-gray, #353430);
+    --color-link-border: var(--clr-gray, #353430);
+    --color-transparent-border: var(
+      --clr-gray-transparent,
+      rgba(50, 49, 45, 0.4)
+    );
+  }
+  .header__rec {
+    display: none;
+  }
 }
