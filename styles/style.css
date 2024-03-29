@@ -61,27 +61,6 @@
   right: var(--padding-main, 10px);
 }
 
-.header__rec {
-  position: absolute;
-  top: var(--padding-main);
-  right: calc(9px + var(--padding-main));
-  text-transform: uppercase;
-  line-height: 1.39;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.header__rec::after {
-  content: "";
-  display: inline-block;
-  inline-size: 9px;
-  block-size: 9px;
-  background-color: var(--color-accent-bg, #ff0070);
-  border-radius: 50%;
-  box-shadow: 0px 0px 4px 4px var(--clr-retro-pink-pop, #ff0070);
-}
-
 .header__theme-menu {
   align-self: center;
   justify-self: end;
