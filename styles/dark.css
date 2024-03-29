@@ -1,4 +1,5 @@
 .page.theme_dark {
+  color-scheme: dark;
   /* Backgrounds */
   --color-main-bg: var(--clr-midnight, #000028);
   --image-cover-bg: url(../images/cover-image-dark.png);
@@ -22,7 +23,8 @@
   );
 }
 
-.header__rec {
+.page.theme_dark .header__rec {
+  color-scheme: dark;
   position: absolute;
   top: var(--padding-main);
   right: calc(9px + var(--padding-main));
@@ -33,7 +35,8 @@
   gap: 10px;
 }
 
-.header__rec::after {
+.page.theme_dark .header__rec::after {
+  color-scheme: dark;
   content: "";
   display: inline-block;
   inline-size: 9px;

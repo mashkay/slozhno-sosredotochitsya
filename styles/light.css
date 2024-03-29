@@ -24,6 +24,7 @@
 }
 
 .page.theme_light .header__rec {
+  color-scheme: light;
   display: none;
 }
 
@@ -53,24 +54,26 @@
     );
   }
   .header__rec {
+    color-scheme: light;
     display: none;
   }
 
   .page.theme_dark {
+    color-scheme: dark;
     /* Backgrounds */
     --color-main-bg: var(--clr-midnight, #000028);
     --image-cover-bg: url(../images/cover-image-dark.png);
     --color-accent-bg: var(--clr-retro-pink-pop, #ff0070);
-  
+
     /* Text colours */
     --color-main-text: var(--clr-bunny-cake, #f1b2ce);
     --color-title-text: var(--clr-psychedelic-purple, #db00ff);
     --color-contrast-text: var(--clr-retro-pink-pop, #ff0070);
     --color-accent-text: var(--clr-midnight, #000028);
-  
+
     /* Text shadows */
     --color-text-shadow: var(--clr-retro-pink-pop, #ff0070);
-  
+
     /* Border colours */
     --color-main-border: var(--clr-retro-pink-pop, #ff0070);
     --color-link-border: var(--clr-bunny-cake, #f1b2ce);
@@ -79,8 +82,9 @@
       rgba(255, 0, 112, 0.4)
     );
   }
-  
+
   .theme_dark .header__rec {
+    color-scheme: dark;
     position: absolute;
     top: var(--padding-main);
     right: calc(9px + var(--padding-main));
@@ -90,8 +94,9 @@
     align-items: center;
     gap: 10px;
   }
-  
+
   .theme_dark .header__rec::after {
+    color-scheme: dark;
     content: "";
     display: inline-block;
     inline-size: 9px;
