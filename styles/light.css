@@ -72,7 +72,8 @@
     --color-accent-text: var(--clr-midnight, #000028);
 
     /* Text shadows */
-    --color-text-shadow: var(--clr-retro-pink-pop, #ff0070);
+    --color-link-shadow: var(--clr-retro-pink-pop, #ff0070);
+    
 
     /* Border colours */
     --color-main-border: var(--clr-retro-pink-pop, #ff0070);
