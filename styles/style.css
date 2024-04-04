@@ -28,7 +28,7 @@
   color: var(--color-contrast-text, #ff0070);
   grid-template-rows: 1fr auto 1fr;
   grid-template-columns: repeat(var(--num-header-columns), 1fr);
-  height: 100vh;
+  height: max( 100vh, var(--min-block-size, 668px) );
   min-block-size: var(--min-block-size, 668px);
 }
 

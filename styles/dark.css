@@ -1,4 +1,4 @@
-.page.theme_dark {
+:root .theme_dark {
   color-scheme: dark;
   /* Backgrounds */
   --color-main-bg: var(--clr-midnight, #000028);
@@ -23,7 +23,7 @@
   );
 }
 
-.page.theme_dark .header__rec {
+:root .theme_dark .header__rec {
   color-scheme: dark;
   position: absolute;
   top: var(--padding-main);
@@ -35,7 +35,7 @@
   gap: 10px;
 }
 
-.page.theme_dark .header__rec::after {
+:root .theme_dark .header__rec::after {
   color-scheme: dark;
   content: "";
   display: inline-block;
